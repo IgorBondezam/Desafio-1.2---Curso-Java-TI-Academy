@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor_font: white;
+    --fonte: Verdana;
+}
+
+header{
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(to bottom, #2196F3, #3D5AFE);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto_header{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo, #subtitulo{
+    color: var(--cor_font);
+    font-family: var(--fonte);
+}
+
+main{
+    width: 100%;
+    margin-top: 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#borda_forms{
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+}
+
+input{
+    width: 23vw;
+    height: 30px;
+    margin: 0 20px 5px 20px;
+
+}
+
+label{
+    font-family: var(--fonte);
+    margin: 0 20px 0px 20px;
+
+}
+
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    padding-top: 7px;
+    padding-bottom: 7%;
+    background-color: #2196F3;
+    border: 0px;
+    border-radius: 5px;
+    border-bottom: 4px solid #0D47A1;
+    color: var(--cor_font);
+    font-family: var(--fonte);
+    font-size: 14px;
+}
+#submit:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    padding-top: 7px;
+    padding-bottom: 7%;
+    background-color: #0D47A1;
+    border: 0px;
+    border-radius: 5px;
+    border-bottom: 4px solid #0D47A1;
+    color: var(--cor_font);
+    font-family: var(--fonte);
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+
+#icon_terra{
+    
+    padding: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: #2196F3;
+    font-size: 64px;
+    position: absolute;
+    top: 150px;
+}
+#icon_terra:hover{
+    
+    padding: 10px;
+    border-radius: 100%;
+    background-color: white;
+    color: #0D47A1;
+    font-size: 80px;
+    position: absolute;
+    top: 150px;
+    transition: 1.5s;
+
+}
